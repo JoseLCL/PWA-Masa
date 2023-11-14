@@ -3,8 +3,8 @@ self.addEventListener('install', (event) => {
       caches.open('conversor-cache').then((cache) => {
         return cache.addAll([
           './',
-          '/styles.css',
-          '/script.js',
+          '/estilos.css',
+          '/masa.js',
         ]);
       })
     );
