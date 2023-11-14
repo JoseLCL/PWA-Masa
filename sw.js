@@ -1,10 +1,16 @@
 
 // sw.js
 
-self.addEventListener('install', event => {
+self.addEventListener('install', (event) => {
   event.waitUntil(
-      caches.open('conversor-cache')
-          .then(cache => cache.addAll(urlsToCache))
+    caches.open('conversor-cache').then((cache) => {
+      return cache.addAll([
+        './',
+        '/index.html',
+        '/estilos.css',
+        '/masa.js',
+      ]);
+    })
   );
 });
 

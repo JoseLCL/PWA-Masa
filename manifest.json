@@ -1,7 +1,6 @@
 {
-    "lang": "es",
-    "name": "Aplicación - Conversor de Masa",
-    "short_name": "Conversor de Masa",
+    "name": "Conversor de Masa",
+    "short_name": "Masa",
     "description": "App sencilla capaz de convertir desde y hacia cuatro diferentes unidades de masa",
     "start_url": "./",
     "display": "standalone",
@@ -9,7 +8,7 @@
     "theme_color": "#2c3e50",
     "icons": [
       {
-        "src": "icono.png",
+        "src": "./icono.png",
         "sizes": "225x225",
         "type": "image/png"
       }
